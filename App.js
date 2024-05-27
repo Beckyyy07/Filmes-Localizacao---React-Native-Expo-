@@ -26,7 +26,7 @@ const App = () => {
       return;
     }
     try {
-      const apiKey = "6c331144";
+      const apiKey = "";
       const apiUrl = `https://www.omdbapi.com/?t=${movieTitle}&apikey=${apiKey}`;
       const response = await fetch(apiUrl);
       const data = await response.json();
